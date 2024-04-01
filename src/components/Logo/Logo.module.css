@@ -1,0 +1,30 @@
+.logo {
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 2rem; */
+}
+.logo img {
+  height: 40px;
+  width: 40px;
+  /* border: 2px solid black; */
+}
+.logo span {
+  font-weight: 800;
+  font-size: 30px;
+  margin: 10px;
+}
+@media (max-width: 600px) {
+  .logo {
+    margin-top: 0px;
+    color: white;
+    /* display: flex; */
+    /* align-items: flex-start; */
+    justify-content: flex-start;
+    padding-left: 2vw;
+    padding-bottom: 1px;
+    background-color: #2e0052;
+    width: 98vw;
+  }
+}

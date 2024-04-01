@@ -1,0 +1,92 @@
+.DetailPage {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.backButton {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0.8rem 1.4rem;
+  background: #2e0052;
+  cursor: pointer;
+  margin: 1rem 0rem;
+}
+.pageLayout {
+  display: flex;
+}
+.imgProduct {
+  width: 40%;
+  /* height: 58vh; */
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+.overview {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.details {
+  margin-left: 1.3rem;
+}
+.name {
+  font-size: 19px;
+  font-weight: bolder;
+}
+.price {
+  font-size: 16px;
+  font-weight: bolder;
+}
+.seprate {
+  margin: 0px 4px;
+}
+.review,
+.name,
+.price,
+.colour,
+.available,
+.brand,
+.desc {
+  margin-top: 0.4rem;
+}
+.label {
+  font-size: 16px;
+  font-weight: bolder;
+}
+.colour {
+  font-size: 18px;
+}
+.cartBtn,
+.buyBtn {
+  width: 20vw;
+  padding: 0.5rem;
+  font-size: 17px;
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.cartBtn {
+  background-color: #ffd600;
+}
+.buyBtn {
+  background-color: #ffb800;
+}
+.ProductDetailContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

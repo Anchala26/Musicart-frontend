@@ -1,0 +1,75 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.signupPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.signupForm {
+  margin-top: 15px;
+  padding: 0px 20px;
+  border: 2px solid #d9d9d9;
+  border-radius: 20px;
+}
+.signupForm label {
+  font-weight: 500;
+}
+.signupForm input {
+  width: 90%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 30px;
+  border: 2px solid #d9d9d9;
+  border-radius: 5px;
+}
+#btn {
+  font-weight: 700;
+  height: 35px;
+  width: 91%;
+  color: white;
+  background-color: #2e0052;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10x;
+}
+#text {
+  width: 29vw;
+  padding-bottom: 6px;
+}
+.error {
+  color: red;
+}
+@media (max-width: 767px) {
+  #text {
+    width: 90%;
+  }
+  .signupForm {
+    margin-top: 20px;
+    width: 70vw;
+    height: auto;
+  }
+  .signupPage {
+    max-height: 100vh;
+    max-width: 100vw;
+  }
+  .logo {
+    margin-top: 0px;
+    color: white;
+    /* display: flex; */
+    /* align-items: flex-start; */
+    justify-content: flex-start;
+    padding-left: 2rem;
+    padding-bottom: 1px;
+    background-color: #2e0052;
+    width: 100vw;
+  }
+}
+.para {
+  font-size: smaller;
+  margin-bottom: 20px;
+}

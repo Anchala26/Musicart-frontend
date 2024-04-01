@@ -1,0 +1,26 @@
+.header {
+  background-color: #2e0052;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 7vh;
+  max-width: 100vw;
+}
+.contactNo {
+  display: flex;
+  flex-direction: row;
+}
+#phone {
+  height: 1.4rem;
+  margin-right: 2px;
+}
+.button {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.buttonStyle {
+  padding-right: 5vw;
+}
